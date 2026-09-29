@@ -1,0 +1,133 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+
+header { 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(70, 70, 70); 
+    display: flex; 
+    gap: 1350px;
+}
+
+#other { 
+    display: flex; 
+    align-items: center; 
+    gap: 30px; 
+} 
+
+main { 
+    background-color: rgb(255, 253, 240); 
+    padding: 30px; 
+}
+
+#intro {
+    background-color: rgb(255, 218, 224);
+    color: rgb(60, 60, 60); 
+    border-radius: 20px; 
+    width: 100%; 
+    height: 350px; 
+    align-items: center; 
+    display: flex; 
+    gap: 400px; 
+    padding-left: 10px; 
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.4); 
+} 
+
+#intro h1 {  
+    font-size: 55px;
+    line-height: 0.95;
+    max-width: 550px; 
+}
+   
+#intro img { 
+    width: 25%; 
+    height: 90%; 
+    border-radius: 30px; 
+    border: 2px solid rgb(255, 255, 255); 
+} 
+
+#gal-cards { 
+    padding: 30px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 30px;
+} 
+
+.cards { 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(70, 70, 70); 
+    border-radius: 30px; 
+    width: 30%; 
+    height: 460px; 
+    padding-left: 30px; 
+    border: 2px solid rgb(255, 218, 224); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
+} 
+
+.cards img { 
+    width: 90%; 
+    height: 80%; 
+    border-radius: 30px; 
+    margin-top: 15px; 
+} 
+
+footer {
+    background-color: rgb(255, 255, 255); 
+    padding: 20px; 
+    border-top: 2px solid rgb(255, 182, 193); 
+}
+
+footer p {
+        color: rgb(120, 120, 120); 
+
+}
+
+h3 {
+  color: #e07a9b;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+#lista-rosa {
+  background-color: #fbebf0;
+  font-family: sans-serif;
+  padding: 20px 20px 20px 40px; 
+  border-radius: 8px; 
+  list-style-type: square; 
+}
+
+#lista-rosa li {
+  color: #4a4a4a; 
+  margin-bottom: 8px; 
+  font-size: 16px;
+}
+
+#lista-rosa li:last-child {
+  margin-bottom: 0;
+}
+
+
+#tabela-rosa {
+  width: 100%;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+#tabela-rosa th {
+  background-color: #e07a9b;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+#tabela-rosa td {
+  padding: 10px;
+  border-bottom: 1px solid #f3cbd7;
+}
+
+#tabela-rosa tbody tr:nth-child(even) {
+  background-color: #fbebf0;
+}
