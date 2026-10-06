@@ -43,3 +43,4 @@ As entidades do nosso banco de dados seriam:
 
 **Cliente:** Dona Neide - Bolos da Neide.
 
+![alt text](./image-1.png)
